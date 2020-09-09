@@ -401,7 +401,7 @@ layui.define(['jquery', 'form'], function (exports) {
             // 子节点列表的Key
             opt.childKey = opt.childKey ? opt.childKey : 'list';
             // 名称的key
-            opt.nameKey = opt.valueKey ? opt.valueKey : 'name';
+            opt.nameKey = opt.nameKey ? opt.nameKey : 'name';
             // 值的key
             opt.valueKey = opt.valueKey ? opt.valueKey : 'value';
             // 选中的key - 仅支持字符串
